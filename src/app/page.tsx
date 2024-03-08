@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <Header />
-      <Button onClick={() => setTheme("light")} variant="outline" size="icon">Light</Button>
+      <Button onClick={() => setTheme("light")} variant="outline" size="icon">Light1</Button>
       <Button onClick={() => setTheme("dark")} variant="outline" size="icon">Dark</Button>
 
     </main>
