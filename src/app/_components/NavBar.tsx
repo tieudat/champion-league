@@ -32,7 +32,13 @@ const NarBar = () => {
       </div>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-        <Image className="cursor-pointer" src="/favicon.ico" alt="action-setting" width="16" height="16" />
+          <Image
+            className="cursor-pointer"
+            src="/favicon.ico"
+            alt="action-setting"
+            width="16"
+            height="16"
+          />
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-48 rounded-[20px] p-5">
           <DropdownMenuGroup>

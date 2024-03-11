@@ -6,14 +6,14 @@ import NarBar from "./NavBar";
 
 export default function Header() {
   return (
-    <div className="flex flex-row items-center h-[80px] bg-white w-dvw border-b border-c">
-      <div className="flex min-h-[40px] items-center mx-auto my-0 lg:w-[95%]">
+    <header className="border-c flex h-[80px] w-dvw flex-row items-center border-b border-b-[var(--bg-input)] bg-white">
+      <div className="mx-auto my-0 flex min-h-[40px] items-center lg:w-[95%]">
         <Link href="/">
           <Logo />
         </Link>
         <Search />
         <NarBar />
       </div>
-    </div>
+    </header>
   );
 }
