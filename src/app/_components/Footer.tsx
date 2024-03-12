@@ -3,9 +3,9 @@ import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <footer className="flex h-full flex-col">
-      <div className="footerTop flex w-full flex-row justify-center">
-        <div className="w-[calc(100vw-48px)] max-w-screen-xl lg:w-[calc(100vw-64px)]">
+    <footer className="flex h-full flex-col items-center justify-center bg-[var(--Footer-background)]">
+      <div className="1xl:w-[1344px] footerTop flex w-full flex-row justify-center lg:w-[992px]">
+        <div className="max-w-screen-xl w-[calc(100vw-48px)] lg:w-[calc(100vw-64px)]">
           <section className="flex gap-8 p-[40px_0_24px_0] lg:grid lg:grid-cols-3 lg:gap-4 lg:p-[48px_0_40px_0]">
             <div className="flex flex-col gap-8">
               <Logo />
@@ -112,9 +112,25 @@ const Footer = () => {
           </section>
         </div>
       </div>
-      <div className="footerBottom flex w-full flex-row justify-center">
-        <div className="w-[calc(100vw-48px)] max-w-screen-xl lg:w-[calc(100vw-64px)]">
-          <section className="flex gap-8 p-[40px_0_24px_0] lg:grid lg:grid-cols-3 lg:gap-4 lg:p-[48px_0_40px_0]"></section>
+      <div className="footerBottom 1xl:w-[1344px] flex w-full flex-row justify-center lg:w-[992px]">
+        <div className="max-w-screen-xl w-[calc(100vw-48px)] lg:w-[calc(100vw-64px)]">
+          <section className="flex gap-8 p-[40px_0_24px_0] lg:grid lg:grid-cols-3 lg:gap-4 lg:p-[48px_0_40px_0]">
+            <div className="flex flex-col gap-8">
+              <p>
+                <small className="whitespace-nowrap text-sm">
+                  © Copyright 2024 Football
+                </small>
+              </p>
+            </div>
+            <div className="flex max-w-[308px] flex-col gap-8 text-[13px] leading-4">
+              The use of automatic services (robots, crawler, indexing etc.) as
+              well as other methods for systematic or regular use is not
+              permitted.
+            </div>
+            <div className="flex flex-col gap-8">
+              <p>Follow Us</p>
+            </div>
+          </section>
         </div>
       </div>
     </footer>

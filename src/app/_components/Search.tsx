@@ -12,7 +12,7 @@ const Search = () => {
   return (
     <form
       onSubmit={() => {}}
-      className="w-full pl-0 lg:flex lg:items-center lg:pl-[50px]"
+      className="flex-[1] pl-0 lg:flex lg:items-center lg:pl-[50px]"
     >
       <div>
         <input

@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn("font-IBMPlex antialiased", IBMPlex.variable)}>
+      <body className={cn("overflow-x-hidden bg-[var(--global-background)] font-IBMPlex antialiased", IBMPlex.variable)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

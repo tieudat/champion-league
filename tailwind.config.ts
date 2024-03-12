@@ -75,8 +75,12 @@ const config = {
       },
     },
     screens: {
+      "xs": "350px",
       "lg": "992px",
+      "xl": "1280px",
+      "1xl": "1344px",
       "2xl": "1400px",
+      "3xl": "1632px",
     },
   },
   plugins: [require("tailwindcss-animate")],

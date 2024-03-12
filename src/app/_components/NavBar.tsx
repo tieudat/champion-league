@@ -19,7 +19,7 @@ import Logo from "./Logo";
 
 const NarBar = () => {
   return (
-    <div className="flex flex-row items-center gap-6">
+    <div className="flex flex-row items-center gap-6 xl:gap-10">
       <div className="text-[19px] font-bold">
         <Link className="whitespace-nowrap" href="/news">
           New
